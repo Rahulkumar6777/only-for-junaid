@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map with Custom and Google Places</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input id="autocomplete" type="text" placeholder="Search for places... (e.g., beaches, mountains)">
+    <button onclick="globalSearch()">Search</button>
+    <div id="map"></div>
+    <div id="places-list"></div>
+
+    <script src="script.js"></script>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAA5Tmy0ZgTfvuKJtYwRdHG0i_sNVJYecM&libraries=places,geometry"></script>
+
+</body>
+</html>
